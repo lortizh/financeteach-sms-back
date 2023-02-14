@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.financeteach</groupId>
-	<artifactId>process-sms-back</artifactId>
+	<artifactId>financeteach-sms-back</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>process-sms-back</name>
+	<name>financeteach-sms-back</name>
 	<description>Backend process sms transactions</description>
 	<properties>
 		<java.version>8</java.version>
@@ -82,7 +82,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>process-sms-back-web-services</finalName>
+		<finalName>financeteach-sms-back-web-services</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
