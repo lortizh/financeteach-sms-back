@@ -37,9 +37,9 @@ public class Account {
 	
 	@Column(name = "account_type")
 	private String accountType;
-	
+	/*
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "movement")
     private List movements;
-	
+	*/
 	
 }
